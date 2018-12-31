@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		63452EAC21D98AB8001BEE29 /* screensaver_00View.h in Headers */ = {isa = PBXBuildFile; fileRef = 63452EAB21D98AB8001BEE29 /* screensaver_00View.h */; };
 		63452EAE21D98AB8001BEE29 /* screensaver_00View.m in Sources */ = {isa = PBXBuildFile; fileRef = 63452EAD21D98AB8001BEE29 /* screensaver_00View.m */; };
+		63452EB721D991EE001BEE29 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63452EB621D991EE001BEE29 /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		63452EAB21D98AB8001BEE29 /* screensaver_00View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = screensaver_00View.h; sourceTree = "<group>"; };
 		63452EAD21D98AB8001BEE29 /* screensaver_00View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = screensaver_00View.m; sourceTree = "<group>"; };
 		63452EAF21D98AB8001BEE29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63452EB621D991EE001BEE29 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -23,6 +25,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63452EB721D991EE001BEE29 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -34,6 +37,7 @@
 			children = (
 				63452EAA21D98AB7001BEE29 /* screensaver_00 */,
 				63452EA921D98AB7001BEE29 /* Products */,
+				63452EB521D991EE001BEE29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,6 +57,14 @@
 				63452EAF21D98AB8001BEE29 /* Info.plist */,
 			);
 			path = screensaver_00;
+			sourceTree = "<group>";
+		};
+		63452EB521D991EE001BEE29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63452EB621D991EE001BEE29 /* Cocoa.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +270,7 @@
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				PRODUCT_BUNDLE_IDENTIFIER = "xcode6.4.screensaver-00";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Debug;
@@ -271,6 +284,7 @@
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				PRODUCT_BUNDLE_IDENTIFIER = "xcode6.4.screensaver-00";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Release;
