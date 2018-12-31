@@ -264,7 +264,7 @@
 		63452EB321D98AB8001BEE29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = screensaver_00/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
@@ -278,7 +278,7 @@
 		63452EB421D98AB8001BEE29 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = screensaver_00/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
