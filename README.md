@@ -6,6 +6,12 @@ to install: you need to get
 
 https://github.com/radiochickenwax/xcode_screensaver_00/tree/master/DerivedData/screensaver_00/Build/Products/Debug/screensaver_00.saver into the osx file system.  Double clicking installs it...
 
+Some better docs are in:
+http://cocoadevcentral.com/articles/000088.php
+
+http://preserve.mactech.com/articles/mactech/Vol.21/21.06/SaveOurScreens/index.html
+
+https://blog.viacom.tech/2016/06/27/making-a-macos-screen-saver-in-swift-with-scenekit/
 
 
 \<stream of consciousness\>
